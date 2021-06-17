@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Ticket Hunter</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="homepage.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+</head>
+<body style="background-color: #262626;">
+<nav class="navbar fixed-top" style="background-color: #262626;">
+  <div class="container-fluid">
+    <span class="navbar-brand mb-0 h1" style="font-size: 30px; color: #ffffff; font-family: 'Poppins' sans-serif ;"><b>Ticket Hunter</b></span>
+    <div class="row" style="padding-left: 50px;">
+      <div class="col" style="padding-left:50px;">
+    <form class="form-inline">
+    <input class="form-control " type="search" placeholder="Search" aria-label="Search" style="width: 200px;"></div>
+    <div class="col"><button type="submit" class="btn btn-outline-light">Search</button></div>
+    </div>
+  </form>
+  
+  </div>
+
+</nav>
+		<div class="home-slider">
+			<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="dummy/aloe.jpg" class="d-block w-100" alt="...">
+     <!-- <div class="carousel-caption d-none d-md-block">
+        <h3>Black Widow</h3>
+        <p>At birth the Black Widow (aka Natasha Romanova) is given to the KGB, which grooms her to become its ultimate operative. When the U.S.S.R. breaks up, the government tries to kill her as the action moves to present-day New York, where she is a freelance operative.</p>
+      </div> -->
+    </div>
+    <div class="carousel-item">
+      <img src="dummy/away.jpg" class="d-block w-100" alt="...">
+     <!-- <div class="carousel-caption d-none d-md-block">
+        <h3>Away</h3>
+        <p>Two sisters orchestrate a bus robbery to raise money to save their dying mother.</p>
+      </div> -->
+    </div>
+    <div class="carousel-item">
+      <img src="dummy/kete.png" class="d-block w-100" alt="...">
+     <!--  <div class="carousel-caption d-none d-md-block">
+        <h3>Fix Us</h3>
+        <p>Fix Us tells the story three young ladies who take on a journey of faith and fate. When Naadie , Chioma and Jaya run into each other at an audition, they are bound by their common dream to be movie stars and form a friendship that can hardly be broken. But when their dreams are eventually actualized, they soon realize that they want even something more from life.</p>
+      </div> -->
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+		</div>
+<br>
+<br>
+<!-- As a heading -->
+<nav class="navbar" style="background-color: #262626;">
+  <div class="container-fluid">
+    <span class="navbar-brand mb-0 h1" style="font-size: 30px; color: #ffffff;"> Latest Movies</span>
+  </div>
+</nav>
+<br>
+<br>
+
+<div class="row" style="width: 1100px; padding-left: 50px;">
+	<div class="card-group">
+  <div class="card">
+    <img src="dummy/vera.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title" style="color: #ffffff;">Aloe Vera</h5>
+      <p class="card-text" style="color: #ffffff;">Aloe Vera is a 2020 Ghanaian film produced by Manaa Abdallah and Anny Araba Adams as co-produced and directed by Peter Sedufia</p>
+      <br>
+      <br>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+	  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+ Read More
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Movie 1</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      	
+      	<br>
+      
+      	<br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <a class="btn btn-info" href="https://ug-ticketit.herokuapp.com" role="button">Buy Ticket</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+  <div class="card">
+    <img src="dummy/chic.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title" style="color: #ffffff;">Sidechic Gang</h5>
+       <p class="card-text" style="color: #ffffff;">Three ladies discover that they can make a lot of money by exposing cheating husbands and boyfriends.</p>
+       <br>
+      <br>
+      <br>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      	 <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Read More
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Buy Ticket</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    </div>
+  </div>
+  <div class="card">
+    <img src="dummy/pota.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title" style="color: #ffffff;">Potato Potahto</h5>
+      <p class="card-text" style="color: #ffffff;">A divorced couple who decide to continue living together soon realize that this ingenious idea is easier said than done.</p>
+      <br>
+      <br>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      	  <!-- Button trigger modal -->
+
+  <a class="btn btn-primary" href="#popup1">Read More</a>
+<div id="popup1" class="overlay">
+  <div class="popup">
+    <h2>Potato Potahto</h2>
+    <a class="close" href="#">&times;</a>
+    <div class="content">
+      A divorced couple who decide to continue living together soon realize that this ingenious idea is easier said than done.
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="dummy/kojo.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title" style="color: #ffffff;">The Burial of Kojo</h5>
+      <p class="card-text" style="color: #ffffff;">The film chronicles the tale of two brothers through the gifted eyes of a young girl who transports the audience to the beautiful lands of Ghana and other worlds that exist between life and death.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      	  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Read More
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Buy Ticket</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+</div>
+</div>
+
+<div style="width: 1070px; padding-left: 50px; padding-top: 10px;" >
+<p>
+  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+    Show All
+  </a>
+</p>
+<div class="collapse" id="collapseExample">
+  <div class="row" style="width: 1050px; padding-left: 0px;">
+  <div class="card-group">
+  <div class="card">
+    <img src="dummy/pic.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title" style="color: #ffffff;">The Perfect Picture: Ten Years Later</h5>
+      <p class="card-text" style="color: #ffffff;">From flawed husbands to shaky finances, new complications test a close circle of friends who must lean on one another.</p>
+      <br>
+      <br>
+      
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+ Read More
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Movie 1</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+        <br>
+        
+        <br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <a class="btn btn-info" href="https://ug-ticketit.herokuapp.com" role="button">Buy Ticket</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+  <div class="card">
+    <img src="dummy/azali.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title" style="color: #ffffff;">Azali</h5>
+       <p class="card-text" style="color: #ffffff;">Sent away to evade an arranged marriage, a 14-year-old begins a harrowing journey of sex work and poverty in the slums of Accra.</p>
+         <br>
+       <br>
+       <br>
+       
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+         <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Read More
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Buy Ticket</button>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="dummy/fate.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title" style="color: #ffffff;">Fate of Alakada</h5>
+      <p class="card-text" style="color: #ffffff;">Yetunde (Toyin Abraham) is now a social media influencer still living the fake life and pretending to be a Lagos success.....</p>
+      <br>
+      <br>
+      <br>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+ Read More
+</button>
+
+<div class="modal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Modal body text goes here.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+  <div class="card">
+    <img src="dummy/moms.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title" style="color: #ffffff;">Moms at War</h5>
+      <p class="card-text" style="color: #ffffff;">Two mothers have children, live in the same neighbourhood and hate each other. The mums go through all sorts of antics when their children find themselves competing against each other at school.</p>
+       
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Read More
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Buy Ticket</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+</div>
+</div>
+<br>
+<br>
+
+<div class="row" style="width: 1050px; padding-left: 0px;">
+  <div class="card-group">
+  <div class="card">
+    <img src="dummy/wahala.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title" style="color: #ffffff;">Namaste Wahala </h5>
+      <p class="card-text" style="color: #ffffff;">Namaste Wahala is a 2020 Nigerian cross-cultural romantic comedy film produced, written and directed by Hamisha Daryani Ahuja on her directorial debut. The film stars Ini Dima-Okojie and Ruslaan Mumtaz in the lead roles.</p>
+      <br>
+      <br>
+      <br>
+     
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+ Read More
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Movie 1</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+        <br>
+        
+        <br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <a class="btn btn-info" href="https://ug-ticketit.herokuapp.com" role="button">Buy Ticket</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+  <div class="card">
+    <img src="dummy/life.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title" style="color: #ffffff;">This Lady Called Life</h5>
+       <p class="card-text" style="color: #ffffff;">Abandoned by her family, young single mother Aiye struggles to survive but stays focused on her dream of becoming an elite chef.</p>
+       <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+         <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Read More
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Buy Ticket</button>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+  
+  <div class="card">
+    <img src="dummy/affy.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title" style="color: #ffffff;">Dear Affy</h5>
+      <p class="card-text" style="color: #ffffff;">Dear Affy is a romantic comedy with a super plot twist, which tells the story of a beautiful career lady who is about to get married to the man of her dream who is on the verge of sealing millions of Naira worth of contract with a conglomerate in a construction industry.</p>
+      <br>
+      <br>
+      
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+ Read More
+</button>
+
+<div class="modal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Modal body text goes here.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+  <div class="card">
+    <img src="dummy/sugar.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title" style="color: #ffffff;">Sugar</h5>
+      <p class="card-text" style="color: #ffffff;">Sugar is a Ghanaian musical romantic comedy which tells the story of an award winning musician who allows fame to turn him into a womanizer resulting in a breakup with his long term girlfriend. He then spirals out of control and then meets a woman who makes him change his ways until everything is challenged when his past catches up with him.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Read More
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Buy Ticket</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+</div>
+</div>
+
+  </div>
+</div>
+<!--
+<br>
+<br>
+
+  <div style="width: 1080px; padding-left: 50px;">
+    <div class="card">
+  <div class="card-header" style="color: #ffffff;">
+    About Us
+  </div>
+  <div class="card-body">
+    <blockquote class="blockquote mb-0">
+      <p style="color: #80bfff; font-size: 15px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+    </blockquote>
+  </div>
+</div>
+  </div>
+-->
+<br>
+<br>
+  
+<div style="padding-left: 50px;">
+  <figure class="quote" style="width: 1020px; padding-left: 50px;">
+  <blockquote>
+    <h2 style="color: #404040;"> About Ticket Hunter</h1>
+    A web application to assist Ghanaians to buy movie tickets online preventing the hassle of joining queues to buy to tickets at the cinema.This will also help promote Ghanaian Movies and Movie Producers through marketing them on our website.
+  </blockquote>
+  <figcaption>
+    &mdash;  <cite>Ticket Hunters</cite>  </figcaption>
+</figure>
+</div>
+
+<br>
+<br>
+  
+<div style="width: 1070px; padding-left: 50px;">
+<div class="card mb-3" >
+
+  <div class="home-slider">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="embed-responsive embed-responsive-21by9">
+  <iframe class="embed-responsive-item" width="1111" height="530" src="https://www.youtube.com/embed/2xb9Ty-1frw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Beast of No Nation</h3>
+        <p>As civil war rages in Africa, a fierce warlord (Idris Elba) trains a young orphan (Abraham Attah) to join his group of guerrilla soldiers.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <iframe width="1111" height="530" src="https://www.youtube.com/embed/1eMAYynMc1w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Citation</h3>
+        <p>A bright student in Nigeria takes on the academic establishment when she reports a popular professor who tried to rape her.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <iframe width="1111" height="530" src="https://www.youtube.com/embed/NNE71A42SMI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Keteke</h3>
+        <p>A couple expecting its first child misses a train into the city for the delivery.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    </div>
+
+  <div class="card-body">
+    <h5 class="card-title" style="color: #ffffff;">Upcoming Movie Trailers</h5>
+    <p class="card-text" style="color: #ffffff;">Watch the trailers for all upcoming movies.</p>
+    <p class="card-text"><small class="text-muted"></small></p>
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+<script src="bootstrap.js" ></script>
+</body>
+</html>
